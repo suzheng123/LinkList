@@ -101,21 +101,3 @@ list.findDupe()
 list.printList()
 #list.remove(55)
 
-
-
-'''
-n = int(input("how long? \n"))
-print("What are nodes?")
-for i in range(0,n):  
-    nodes = str(input()) 
-    list.insertFront(nodes) 
-'''
-'''
-def remove(self,gone):
-        while cur:              #does NOT work with ODD index
-            prev = cur
-            cur = cur.next
-            if cur.data == gone:
-                prev.next=cur.next
-            cur = cur.next
-''' 

@@ -16,7 +16,7 @@ class linkedList:
         cur.next = newNode
         newNode.prev = cur
 
-    def insertFront(self,data):   #not work
+    def insertFront(self,data):   
         newNode = Nodes(data)
         newNode.next = self.head
         self.head.prev = newNode
@@ -39,7 +39,7 @@ class linkedList:
                 cur.prev.next = cur.next    
             cur = cur.next
 
-    def reverseOrder(self): #not work with head element
+    def reverseOrder(self):
         print("  <~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
         cur = self.head
         lastOne = None
